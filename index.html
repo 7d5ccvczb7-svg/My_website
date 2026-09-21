@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Tech Home Services | Professional Maintenance & Cleaning</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid me-2 fa-screwdriver-wrench text-amber-400 text-2xl"></i>
+                <span class="text-xl font-bold tracking-wide">MultiCraft Services</span>
+            </div>
+            <a href="tel:+919876543210" class="bg-amber-400 hover:bg-amber-500 text-blue-950 font-bold px-4 py-2 rounded-lg flex items-center gap-2 transition duration-200">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call Now</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+                One Team. Every Repair. Total Care.
+            </h1>
+            <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Expert Painting, Plumbing, Welding, Acid Washing, Electrical, & Carpentry services at your doorstep.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/919876543210?text=Hi,%20I%20want%20a%20free%20quote%20for%20home%20service." target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow-lg transition">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Chat on WhatsApp</span>
+                </a>
+                <a href="#quote-calculator" class="bg-white hover:bg-slate-100 text-blue-900 font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow-lg transition">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>Calculate Instant Quote</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Grid -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-slate-900">Our Professional Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Acid Washing & Deep Cleaning</h3>
+                <p class="text-slate-600 text-sm mb-4">Hard stain removal for floors, bathroom tiles, granite, and deep chemical washing for clean surfaces.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Stain Removal • Floor Care</span>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-faucet-drip"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Plumbing Solutions</h3>
+                <p class="text-slate-600 text-sm mb-4">Leak fixes, tap & valve replacements, bathroom fittings, drainage repairs, and pipe installations.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Quick Fixes • Pipe Work</span>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-paint-roller"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Painting & Wall Care</h3>
+                <p class="text-slate-600 text-sm mb-4">Interior & exterior wall painting, waterproof coatings, touch-up painting, and surface prep.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Clean Finish • Quality Paint</span>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-volcano"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Welding & Fabrication</h3>
+                <p class="text-slate-600 text-sm mb-4">Gate & grill repairs, custom safety railings, metal door welding, and structural metalwork.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Gates • Railings • Repairs</span>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Electrical Repairs</h3>
+                <p class="text-slate-600 text-sm mb-4">Switchboard installations, light & fan fittings, wiring repairs, and short circuit fixes.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Safety First • Wiring</span>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
+                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
+                    <i class="fa-solid fa-hammer"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Carpentry & Woodwork</h3>
+                <p class="text-slate-600 text-sm mb-4">Door frame repairs, furniture fixing, lock replacements, hinge adjustments, and custom fittings.</p>
+                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Doors • Locks • Furniture</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Interactive Instant Quote Section -->
+    <section id="quote-calculator" class="bg-blue-900 text-white py-12 px-4">
+        <div class="max-w-3xl mx-auto bg-white text-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
+            <h2 class="text-2xl font-bold text-center text-blue-900 mb-2">Instant WhatsApp Quote</h2>
+            <p class="text-center text-slate-600 text-sm mb-6">Select your required services and get an estimated quote sent to WhatsApp!</p>
+            
+            <form id="quoteForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Select Service Required:</label>
+                    <select id="serviceSelect" class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600">
+                        <option value="Acid Washing / Deep Cleaning">Acid Washing / Deep Cleaning</option>
+                        <option value="Plumbing Repair">Plumbing Repair</option>
+                        <option value="Painting & Waterproofing">Painting & Waterproofing</option>
+                        <option value="Welding & Metal Work">Welding & Metal Work</option>
+                        <option value="Electrical Repair">Electrical Repair</option>
+                        <option value="Carpentry & Woodwork">Carpentry & Woodwork</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Your Location / Neighborhood:</label>
+                    <input type="text" id="locationInput" placeholder="e.g., Koramangala / Indiranagar" class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Brief Description of Job:</label>
+                    <textarea id="jobDetails" rows="3" placeholder="Describe the work (e.g., 2 bathroom floor tile acid wash, 1 leaking tap fix)..." class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600" required></textarea>
+                </div>
+
+                <button type="button" onclick="sendWhatsAppQuote()" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow transition">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Get Free Estimate on WhatsApp</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="max-w-6xl mx-auto px-4 py-12 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-slate-900">Why Customers Trust Us</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-4">
+                <i class="fa-solid fa-user-shield text-blue-800 text-3xl mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Skilled Technicians</h3>
+                <p class="text-slate-600 text-sm">Background-checked workers experienced in specialized trades.</p>
+            </div>
+            <div class="p-4">
+                <i class="fa-solid fa-clock text-blue-800 text-3xl mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">On-Time Service</h3>
+                <p class="text-slate-600 text-sm">Punctual visits and quick turnaround time for all repair jobs.</p>
+            </div>
+            <div class="p-4">
+                <i class="fa-solid fa-hand-holding-dollar text-blue-800 text-3xl mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Transparent Rates</h3>
+                <p class="text-slate-600 text-sm">Fair pricing with clear estimates before work begins. No hidden charges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-6 px-4 text-center text-sm border-t border-slate-800">
+        <p>© 2026 MultiCraft Services. All rights reserved.</p>
+        <p class="mt-1 text-xs text-slate-500">Painting | Plumbing | Welding | Acid Washing | Electrical | Carpentry</p>
+    </footer>
+
+    <script>
+        function sendWhatsAppQuote() {
+            const service = document.getElementById('serviceSelect').value;
+            const location = document.getElementById('locationInput').value;
+            const details = document.getElementById('jobDetails').value;
+
+            if(!location || !details) {
+                alert("Please fill in your location and job description.");
+                return;
+            }
+
+            const phone = "919876543210"; // Replace with your actual phone number
+            const text = `Hi! I need a quote for home services.%0A%0A*Service:* ${encodeURIComponent(service)}%0A*Location:* ${encodeURIComponent(location)}%0A*Details:* ${encodeURIComponent(details)}`;
+            
+            window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
+        }
+    </script>
+</body>
+</html>
