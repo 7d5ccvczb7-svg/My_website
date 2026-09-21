@@ -1,207 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allpro Technical & Cleaning Services | Professional Maintenance & Cleaning</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .service-card:hover {
-            transform: translateY(-5px);
-            transition: all 0.3s ease;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllPro Technical & Cleaning | Professional Maintenance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans">
+<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
 
-    <!-- Header / Navigation -->
-    <header class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-2">
-                <i class="fa-solid me-2 fa-screwdriver-wrench text-amber-400 text-2xl"></i>
-                <span class="text-xl font-bold tracking-wide"> Allpro Technical & Cleaning Services</span>
-            </div>
-            <a href="tel:+919036696567" class="bg-amber-400 hover:bg-amber-500 text-blue-950 font-bold px-4 py-2 rounded-lg flex items-center gap-2 transition duration-200">
-                <i class="fa-solid fa-phone"></i>
-                <span>Call Now</span>
-            </a>
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-emerald-600 text-white text-center py-2 px-4 text-sm font-semibold tracking-wide">
+    <i class="fa-solid fa-truck-fast mr-2"></i> Special Offer: Free visit within 5km radius!
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa-solid fa-screwdriver-wrench text-emerald-400 text-2xl"></i>
+        <span class="text-xl font-bold tracking-wide text-white">AllPro Technical & Cleaning Services</span>
+      </div>
+      <a href="https://wa.me/919036696567?text=Hi,%20I%20want%20a%20free%20quote%20for%20home%20service." 
+         target="_blank" 
+         class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium text-sm transition shadow flex items-center gap-2">
+        <i class="fa-brands fa-whatsapp text-lg"></i>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-slate-900 text-white py-16 px-4 text-center border-b border-slate-800">
+    <div class="max-w-3xl mx-auto">
+      <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-4">
+        Trusted Local Experts
+      </span>
+      <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-4 text-white">
+        One Team. Every Repair. Total Care.
+      </h1>
+      <p class="text-slate-300 text-base md:text-lg mb-8 max-w-xl mx-auto">
+        Professional plumbing, electrical work, acid washing, and deep cleaning services at your doorstep.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="https://wa.me/919036696567?text=Hi,%20I%20want%20a%20free%20quote%20for%20home%20service." 
+           target="_blank"
+           class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-lg font-bold text-base transition shadow-lg flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-xl"></i>
+          <span>Get Instant Quote</span>
+        </a>
+        <a href="tel:+919036696567" 
+           class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 rounded-lg font-bold text-base transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-phone text-emerald-400"></i>
+          <span>Call: 90366 96567</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Our Professional Services</h2>
+      <p class="text-slate-600 text-sm md:text-base">Fast, reliable, and affordable home solutions</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Service 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center mb-4">
+          <i class="fa-solid fa-spray-can-sparkles text-xl"></i>
         </div>
-    </header>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Acid Washing</h3>
+        <p class="text-slate-600 text-sm mb-4">Hard stain removal for floors, bathrooms, tiles, and outdoor spaces.</p>
+        <span class="inline-block bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded font-medium">Deep Cleaning</span>
+      </div>
 
-    <!-- Hero Banner -->
-    <section class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16 px-4 text-center">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
-                One Team. Every Repair. Total Care.
-            </h1>
-            <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Expert Painting, Plumbing, Welding, Acid Washing, Electrical, & Carpentry services at your doorstep.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/919036696567?text=Hi,%20I%20want%20a%20free%20quote%20for%20home%20service." target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow-lg transition">
-                    <i class="fa-brands fa-whatsapp text-2xl"></i>
-                    <span>Chat on WhatsApp</span>
-                </a>
-                <a href="#quote-calculator" class="bg-white hover:bg-slate-100 text-blue-900 font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow-lg transition">
-                    <i class="fa-solid fa-calculator"></i>
-                    <span>Calculate Instant Quote</span>
-                </a>
-            </div>
+      <!-- Service 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center mb-4">
+          <i class="fa-solid fa-faucet-drip text-xl"></i>
         </div>
-    </section>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Plumbing Services</h3>
+        <p class="text-slate-600 text-sm mb-4">Leak fixes, tap installations, pipe repairs, and full bathroom fitting.</p>
+        <span class="inline-block bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded font-medium">Repairs & Installs</span>
+      </div>
 
-    <!-- Our Services Grid -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-slate-900">Our Professional Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-            <!-- Service 1 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-spray-can-sparkles"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Acid Washing</h3>
-                <p class="text-slate-600 text-sm mb-4">Hard stain removal for floors, bathroom tiles, granite.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Stain Removal</span>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-faucet-drip"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Plumbing Solutions</h3>
-                <p class="text-slate-600 text-sm mb-4">Leak fixes, tap & valve replacements, bathroom fittings, drainage repairs, and pipe installations.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Quick Fixes • Pipe Work</span>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-paint-roller"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Painting & Wall Care</h3>
-                <p class="text-slate-600 text-sm mb-4">Interior & exterior wall painting, waterproof coatings, touch-up painting, and surface prep.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Clean Finish • Quality Paint</span>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-volcano"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Welding & Fabrication</h3>
-                <p class="text-slate-600 text-sm mb-4">Gate & grill repairs, custom safety railings, metal door welding, and structural metalwork.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Gates • Railings • Repairs</span>
-            </div>
-
-            <!-- Service 5 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-bolt"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Electrical Repairs</h3>
-                <p class="text-slate-600 text-sm mb-4">Switchboard installations, light & fan fittings, wiring repairs, and short circuit fixes.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Safety First • Wiring</span>
-            </div>
-
-            <!-- Service 6 -->
-            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 service-card">
-                <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-4 text-2xl">
-                    <i class="fa-solid fa-hammer"></i>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-slate-800">Carpentry & Woodwork</h3>
-                <p class="text-slate-600 text-sm mb-4">Door frame repairs, furniture fixing, lock replacements, hinge adjustments, and custom fittings.</p>
-                <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded">Doors • Locks • Furniture</span>
-            </div>
-
+      <!-- Service 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center mb-4">
+          <i class="fa-solid fa-bolt text-xl"></i>
         </div>
-    </section>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Electrical Work</h3>
+        <p class="text-slate-600 text-sm mb-4">Wiring, switch replacements, appliance setup, and short-circuit fixes.</p>
+        <span class="inline-block bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded font-medium">Technical Support</span>
+      </div>
 
-    <!-- Interactive Instant Quote Section -->
-    <section id="quote-calculator" class="bg-blue-900 text-white py-12 px-4">
-        <div class="max-w-3xl mx-auto bg-white text-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-            <h2 class="text-2xl font-bold text-center text-blue-900 mb-2">Instant WhatsApp Quote</h2>
-            <p class="text-center text-slate-600 text-sm mb-6">Select your required services and get an estimated quote sent to WhatsApp!</p>
-            
-            <form id="quoteForm" class="space-y-4">
-                <div>
-                    <label class="block text-sm font-semibold mb-2">Select Service Required:</label>
-                    <select id="serviceSelect" class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600">
-                        <option value="Acid Washing / Deep Cleaning">Acid Washing / Deep Cleaning</option>
-                        <option value="Plumbing Repair">Plumbing Repair</option>
-                        <option value="Painting & Waterproofing">Painting & Waterproofing</option>
-                        <option value="Welding & Metal Work">Welding & Metal Work</option>
-                        <option value="Electrical Repair">Electrical Repair</option>
-                        <option value="Carpentry & Woodwork">Carpentry & Woodwork</option>
-                    </select>
-                </div>
+    </div>
+  </section>
 
-                <div>
-                    <label class="block text-sm font-semibold mb-2">Your Location / Neighborhood:</label>
-                    <input type="text" id="locationInput" placeholder="e.g., Koramangala / Indiranagar" class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600" required>
-                </div>
-
-                <div>
-                    <label class="block text-sm font-semibold mb-2">Brief Description of Job:</label>
-                    <textarea id="jobDetails" rows="3" placeholder="Describe the work (e.g., 2 bathroom floor tile acid wash, 1 leaking tap fix)..." class="w-full border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-600" required></textarea>
-                </div>
-
-                <button type="button" onclick="sendWhatsAppQuote()" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 text-lg shadow transition">
-                    <i class="fa-brands fa-whatsapp text-2xl"></i>
-                    <span>Get Free Estimate on WhatsApp</span>
-                </button>
-            </form>
+  <!-- FOOTER / CONTACT SECTION -->
+  <footer class="bg-slate-900 text-white py-12 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <div class="flex items-center justify-center md:justify-start space-x-2 mb-3">
+          <i class="fa-solid fa-screwdriver-wrench text-emerald-400 text-xl"></i>
+          <span class="text-lg font-bold text-white">AllPro Technical & Cleaning Services</span>
         </div>
-    </section>
+        <p class="text-slate-400 text-sm mb-4">Your all-in-one local service partner for technical repairs and deep cleaning.</p>
+        <p class="text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+          <i class="fa-solid fa-circle-check mr-1"></i> Free visit within 5km radius
+        </p>
+      </div>
 
-    <!-- Why Choose Us -->
-    <section class="max-w-6xl mx-auto px-4 py-12 text-center">
-        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-slate-900">Why Customers Trust Us</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="p-4">
-                <i class="fa-solid fa-user-shield text-blue-800 text-3xl mb-3"></i>
-                <h3 class="font-bold text-lg mb-1">Skilled Technicians</h3>
-                <p class="text-slate-600 text-sm">Background-checked workers experienced in specialized trades.</p>
-            </div>
-            <div class="p-4">
-                <i class="fa-solid fa-clock text-blue-800 text-3xl mb-3"></i>
-                <h3 class="font-bold text-lg mb-1">On-Time Service</h3>
-                <p class="text-slate-600 text-sm">Punctual visits and quick turnaround time for all repair jobs.</p>
-            </div>
-            <div class="p-4">
-                <i class="fa-solid fa-hand-holding-dollar text-blue-800 text-3xl mb-3"></i>
-                <h3 class="font-bold text-lg mb-1">Transparent Rates</h3>
-                <p class="text-slate-600 text-sm">Fair pricing with clear estimates before work begins. No hidden charges.</p>
-            </div>
-        </div>
-    </section>
+      <div class="flex flex-col items-center md:items-end gap-3">
+        <span class="text-sm text-slate-400">Contact Us Directly:</span>
+        <a href="tel:+919036696567" class="text-emerald-400 font-bold text-lg hover:underline flex items-center gap-2">
+          <i class="fa-solid fa-phone"></i> +91 90366 96567 <span class="text-xs text-slate-400 font-normal">(Primary)</span>
+        </a>
+        <a href="tel:+918971012296" class="text-slate-300 font-semibold text-base hover:underline flex items-center gap-2">
+          <i class="fa-solid fa-phone"></i> +91 89710 12296 <span class="text-xs text-slate-400 font-normal">(Secondary)</span>
+        </a>
+      </div>
+    </div>
+    <div class="text-center text-xs text-slate-500 mt-8 pt-4 border-t border-slate-800">
+      © AllPro Technical & Cleaning. All rights reserved.
+    </div>
+  </footer>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-6 px-4 text-center text-sm border-t border-slate-800">
-        <p>© 2026 MultiCraft Services. All rights reserved.</p>
-        <p class="mt-1 text-xs text-slate-500">Painting | Plumbing | Welding | Acid Washing | Electrical | Carpentry</p>
-    </footer>
-
-    <script>
-        function sendWhatsAppQuote() {
-            const service = document.getElementById('serviceSelect').value;
-            const location = document.getElementById('locationInput').value;
-            const details = document.getElementById('jobDetails').value;
-
-            if(!location || !details) {
-                alert("Please fill in your location and job description.");
-                return;
-            }
-
-            const phone = "919036696567"; // Replace with your actual phone number
-            const text = `Hi! I need a quote for home services.%0A%0A*Service:* ${encodeURIComponent(service)}%0A*Location:* ${encodeURIComponent(location)}%0A*Details:* ${encodeURIComponent(details)}`;
-            
-            window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
-        }
-    </script>
 </body>
 </html>
